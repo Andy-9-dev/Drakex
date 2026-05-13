@@ -49,19 +49,19 @@ const About = () => {
     {
       name: 'Dr. Elizabeth Morrison',
       role: 'President',
-      image: 'img/profile-1.jpg',
+      image: '/img/profile-1.jpg',
       bio: 'Leading Drakex with 20+ years of experience in higher education administration.',
     },
     {
       name: 'Dr. James Chen',
       role: 'Provost & VP of Academic Affairs',
-      image: 'img/profile-2.jpg',
+      image: '/img/profile-2.jpg',
       bio: 'Overseeing academic programs and faculty development across all schools.',
     },
     {
       name: 'Dr. Sarah Williams',
       role: 'VP of Student Affairs',
-      image: 'img/profile-3.jpg',
+      image: '/img/profile-3.jpg',
       bio: 'Dedicated to enhancing student life and ensuring student success.',
     },
   ]
@@ -77,7 +77,7 @@ const About = () => {
     <div className="bg-white">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary-900 to-primary-700 text-white py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('img/building-1.jpg')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/img/building-1.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">About Drakex</h1>

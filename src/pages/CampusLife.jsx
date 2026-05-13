@@ -107,17 +107,17 @@ const CampusLife = () => {
     {
       name: 'Welcome Week',
       description: 'Start your year with exciting activities, meet new friends, and explore campus.',
-      image: 'img/students playing.jpg',
+      image: '/img/students playing.jpg',
     },
     {
       name: 'Cultural Festival',
       description: 'Celebrate diversity with food, music, and performances from around the world.',
-      image: 'img/students eating.jpg',
+      image: '/img/students eating.jpg',
     },
     {
       name: 'Spring Concert',
       description: 'Annual outdoor concert featuring popular artists and student performers.',
-      image: 'img/building-2.jpg',
+      image: '/img/building-2.jpg',
     },
   ]
 
@@ -125,7 +125,7 @@ const CampusLife = () => {
     <div className="bg-white">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary-900 to-primary-700 text-white py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('img/students playing.jpg')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/img/students playing.jpg')] bg-cover bg-center opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Campus Life at Drakex</h1>

@@ -66,21 +66,21 @@ const Home = () => {
     {
       name: 'Sarah Johnson',
       role: 'Computer Science Graduate',
-      image: 'img/profile-1.jpg',
+      image: '/img/profile-1.jpg',
       quote: 'Drakex transformed my life. The professors are incredibly supportive, and the hands-on projects prepared me perfectly for my career at a top tech company.',
       rating: 5,
     },
     {
       name: 'Michael Chen',
       role: 'Business Administration Student',
-      image: 'img/profile-2.jpg',
+      image: '/img/profile-2.jpg',
       quote: 'The global perspective I gained here is invaluable. I\'ve made friends from all over the world and learned so much from their diverse experiences.',
       rating: 5,
     },
     {
       name: 'Emily Rodriguez',
       role: 'Medical Student',
-      image: 'img/profile-3.jpg',
+      image: '/img/profile-3.jpg',
       quote: 'The clinical training facilities are exceptional. I feel confident and well-prepared to begin my medical career thanks to the comprehensive education I received.',
       rating: 5,
     },
@@ -91,7 +91,7 @@ const Home = () => {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-40"></div>
-        <div className="absolute inset-0 bg-[url('img/building-1.jpg')] bg-cover bg-center mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/img/building-1.jpg')] bg-cover bg-center mix-blend-overlay"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
           <div className="text-center max-w-4xl mx-auto">
